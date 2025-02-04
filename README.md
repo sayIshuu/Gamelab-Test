@@ -23,8 +23,7 @@
 
 ![image](https://github.com/user-attachments/assets/c3d4a1a7-7164-4b65-8aec-cf352d9e333a)
 **Player**
-
-이동 시 총알 한발이 장전되는 시스템입니다.
+- 이동 시 총알 한발이 장전되는 시스템입니다.
 
 **이동 : 방향키**
 
