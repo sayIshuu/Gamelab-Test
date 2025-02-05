@@ -25,6 +25,8 @@ public class Smile52673_TilemapManager : MonoBehaviour
                 TileBase tile = tilemap.GetTile(tilePosition);
 
                 bool isWalkable = !tile.name.Contains("Black"); // 검은색 타일은 이동 불가 타일로 설정
+                
+                // 타일의 절대위치가 tileArray에서 x,y로 상대위치로서 저장되어 관리가능
                 tileArray[x, y] = new TileData(tile, x, y, isWalkable);
             }
         }
